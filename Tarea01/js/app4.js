@@ -1,9 +1,5 @@
-let num1 = prompt('Ingrese la base del triangulo: ');
+let base = parseFloat(prompt('Ingrese la base del triangulo: '));
+let altura = parseFloat(prompt('Ingrese la altura del triangulo: '));
 
-let num2 = prompt('Ingrese la altura del triangulo: ');
-
-let base = parseInt(num1);
-let altura = parseInt(num2);
-
-let area = (base * altura)/2;
+let area = ((base * altura)/2).toFixed(2);
 prompt(`El area del triangulo con base ${base} y altura ${altura} es: ${area} unidades cuadradas`)
