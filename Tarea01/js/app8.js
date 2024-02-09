@@ -4,4 +4,4 @@
 
  let promedio = ((cal1 + cal2 + cal3)/3).toFixed(2);
  
- prompt(`El promedio de las tres calificaciones es: ${cal1}, ${cal2} y ${cal3} es: ${promedioRedondeado}`) 
+ prompt(`El promedio de las tres calificaciones es: ${cal1}, ${cal2} y ${cal3} es: ${promedio}`) 
