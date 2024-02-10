@@ -9,5 +9,5 @@ let horas = Math.floor(segTotal / 3600);
 let minRes = Math.floor((segTotal % 3600) / 60);
 let segRes = segTotal % 60;
 
-alert(`El tiempo total utilizado por ambos atletas es: ${horas} horas, ${minRes} minutos y 
+prompt(`El tiempo total utilizado por ambos atletas es: ${horas} horas, ${minRes} minutos y 
 ${segRes} segundos.`);

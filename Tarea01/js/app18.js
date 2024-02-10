@@ -1,4 +1,7 @@
-let litros = parseFloat(prompt('Ingrese la capacidad del tanque en litros: '));
+let litros1 = parseFloat(prompt('Ingrese la capacidad del primer tanque en litros: '));
+let litros2= parseFloat(prompt('Ingrese la capacidad del segundo tanque en litros: '));
+
+let litros = (litros1 + litros2);
 
 //Litros a metros cubicos.
 let metrosCubicos = (litros / 1000);
