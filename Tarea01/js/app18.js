@@ -13,7 +13,7 @@ prompt(`La cantidad total ${litros} litros equivale a: ${piesCubicos.toFixed(2)}
 
 // Pies cúbicos a yardas cúbicas
 let yardasCubicas = piesCubicos / 27;
-prompt(`La capacidad del tanque expresada en yardas cubicas es de: ${yardasCubicas.toFixed(2)}`)
+prompt(`La capacidad de los tanques expresada en yardas cubicas es de: ${yardasCubicas.toFixed(2)}`)
 
 // Agua consumo domestico 
 let domLitros = (litros * 0.75);
